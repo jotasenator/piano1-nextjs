@@ -1,0 +1,62 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 0.5rem;
+}
+
+.main {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+}
+.piano {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.keyWhite {
+  background-color: white;
+  border: 1px solid;
+  cursor: pointer;
+  height: 400px;
+  padding-top: 350px;
+  user-select: none;
+  text-align: center;
+  width: 60px;
+}
+.keyBlack {
+  background-color: black;
+  border: 1px solid grey;
+  height: 200px;
+  margin-left: -20px;
+  margin-right: -20px;
+  width: 40px;
+  z-index: 1;
+}
+.window {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 50px;
+  margin-top: 10px;
+  padding-left: 5px;
+  width: 90%;
+}
+.button {
+  background-color: forestgreen;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
