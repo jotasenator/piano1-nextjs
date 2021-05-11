@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import { ValueContext } from '../context/valuecontext'
 
 import A from '../public/notes/notes_A.mp3'
@@ -16,10 +16,6 @@ import styles from '../styles/Piano.module.css'
 export const Button = ({ htmlValue }) => {
 
     const { handleGlobal } = useContext(ValueContext)
-
-    const [isPlaying, setIsPlaying] = useState(false)
-
-
 
     const handleNoteA = () => {
         let noteA = new Audio(A)
