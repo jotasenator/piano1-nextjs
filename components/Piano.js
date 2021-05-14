@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext } from 'react'
 import { ValueContext } from '../context/valuecontext'
 
 import A from '../public/notes/notes_A.mp3'

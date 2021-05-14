@@ -1,5 +1,6 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { ValueContext } from '../context/valuecontext'
+
 
 
 import styles from '../styles/Piano.module.css'
@@ -7,7 +8,7 @@ import { Button } from './Button'
 
 export const ShowResultScreen = () => {
 
-    const { handleGlobal, value } = useContext(ValueContext)
+    const { value } = useContext(ValueContext)
 
     const [htmlValue, setHtmlValue] = useState([])
 
