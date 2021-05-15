@@ -15,7 +15,12 @@ export const ShowResultScreen = () => {
 
     const showLetters = () => {
         value?.noteAgain ||
-            htmlValue.push(value?.note)//am I profaning state value??            
+            (htmlValue.length < 30 &&
+
+                htmlValue.push(value?.note)//am I profaning state value??            
+
+
+            )
 
 
 
@@ -23,6 +28,9 @@ export const ShowResultScreen = () => {
 
             {
                 __html: [...htmlValue].slice(1)
+
+
+
             }
         )
     }
