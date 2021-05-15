@@ -3,7 +3,7 @@ import { useReducer } from 'react'
 import { Button } from '../components/Button'
 import { types } from '../context/types'
 import { ValueContext } from '../context/valuecontext'
-import { valueReducer } from '../context/ValueReducer'
+import { valueReducer } from '../context/valueReducer'
 import { Piano } from '../components/Piano'
 import { ShowResultScreen } from '../components/ShowResultScreen'
 
