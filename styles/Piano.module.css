@@ -16,13 +16,13 @@
   justify-content: center;
   max-width: 80vw;
   border-radius: 5px;
-  margin:0 auto;
 }
 .piano {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 2rem;  
+  margin:0 auto;
 }
 .keyWhite {
   background-color: white;
